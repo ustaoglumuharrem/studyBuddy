@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Muharrem\\Desktop\\studyBuddy\\studyBuddy\\studyBuddy\\studyBuddy.csproj": {}
+    "C:\\Users\\Muharrem\\Desktop\\Cet322Final\\studyBuddy\\studyBuddy\\studyBuddy\\studyBuddy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Muharrem\\Desktop\\studyBuddy\\studyBuddy\\studyBuddy\\studyBuddy.csproj": {
+    "C:\\Users\\Muharrem\\Desktop\\Cet322Final\\studyBuddy\\studyBuddy\\studyBuddy\\studyBuddy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Muharrem\\Desktop\\studyBuddy\\studyBuddy\\studyBuddy\\studyBuddy.csproj",
+        "projectUniqueName": "C:\\Users\\Muharrem\\Desktop\\Cet322Final\\studyBuddy\\studyBuddy\\studyBuddy\\studyBuddy.csproj",
         "projectName": "studyBuddy",
-        "projectPath": "C:\\Users\\Muharrem\\Desktop\\studyBuddy\\studyBuddy\\studyBuddy\\studyBuddy.csproj",
+        "projectPath": "C:\\Users\\Muharrem\\Desktop\\Cet322Final\\studyBuddy\\studyBuddy\\studyBuddy\\studyBuddy.csproj",
         "packagesPath": "C:\\Users\\Muharrem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Muharrem\\Desktop\\studyBuddy\\studyBuddy\\studyBuddy\\obj\\",
+        "outputPath": "C:\\Users\\Muharrem\\Desktop\\Cet322Final\\studyBuddy\\studyBuddy\\studyBuddy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Muharrem\\AppData\\Roaming\\NuGet\\NuGet.Config",

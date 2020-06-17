@@ -16,7 +16,7 @@ namespace studyBuddy.Data
 
         public DbSet<Pdf> Pdfs { get; set; }
 
-        public DbSet<PdfLink> PdfLinks { get; set; }
+      
 
         public DbSet<Rate> Rates { get; set; }
 
