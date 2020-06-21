@@ -1,0 +1,74 @@
+ 
+*********anim tetikleme
+public Animator anim3;
+anim.Play("Avit");
+
+--------------
+
+
+Time.timeScale = 0.0f;
+
+
+*****yönlendirme
+
+if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.position += Vector3.left * speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.position += Vector3.right * speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.position += Vector3.up * speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.position += Vector3.down * speed * Time.deltaTime;
+        }
+
+
+
+
+---------image filll
+
+public Image can;
+
+static int countCan=0;
+if (countCan == 1)
+        {
+            totalcan = 0.5f;
+
+            can.GetComponent<Image>().fillAmount = totalcan;
+        }
+
+
+*******yeniscnegecis
+build setting scene ekleme
+using UnityEngine.SceneManagement;
+SceneManager.LoadScene("IntroFourAct");
+
+-------------
+
+******isimalma kullanma
+
+ public InputField txtisimalma;
+   
+
+    public static string isimtut = "";
+
+  isimtut = txtisimalma.text;
+
+diðer classda
+isimalma isimalma;
+isimalma.isimtut-----
+
+
+------
+
+
+
+float x= Random.Range(1,2)
+
+

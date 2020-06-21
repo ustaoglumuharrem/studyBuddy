@@ -79,7 +79,10 @@ namespace studyBuddy.Controllers
                 {
                     using (var fileStream = new FileStream(Path.Combine(resimler, pdf.ResimDosyasi.FileName), FileMode.Create))
                     {
+                        
                         await pdf.ResimDosyasi.CopyToAsync(fileStream);
+                        
+                        
                     }
                 }
                 pdf.ResimYolu = pdf.ResimDosyasi.FileName;
@@ -92,12 +95,7 @@ namespace studyBuddy.Controllers
             return View(pdf);
         }
 
-
         
-
-
-
-
 
 
         // GET: Pdfs/Edit/5
