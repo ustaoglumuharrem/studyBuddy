@@ -11,9 +11,11 @@ using Microsoft.EntityFrameworkCore;
 using studyBuddy.Data;
 using studyBuddy.Models;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Authorization;
 
 namespace studyBuddy.Controllers
 {
+    [Authorize]
     public class PdfsController : Controller
     {
         private readonly ApplicationDbContext _context;
