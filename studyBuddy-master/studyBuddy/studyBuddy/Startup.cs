@@ -62,7 +62,7 @@ namespace studyBuddy
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=search}/{id?}");
+                    pattern: "{controller=Home}/{action=Search}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

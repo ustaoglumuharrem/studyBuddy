@@ -11,7 +11,7 @@ using studyBuddy.Models;
 
 namespace studyBuddy.Controllers
 {
-    [Authorize(Roles ="User")]
+    [Authorize]
     public class TermsController : Controller
     {
         private readonly ApplicationDbContext _context;

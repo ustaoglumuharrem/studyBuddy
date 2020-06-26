@@ -1,15 +1,26 @@
 ﻿@model studyBuddy.Models.Pdf
-
+    <style>
+        .myDiv {
+            border: 3px outset red;
+            background-color: lightcoral;
+            text-decoration-style: double;
+            text-align: left;
+            border-radius: 2px 2px;
+            margin-left: 30px;
+            width: auto;
+            height: auto;
+        }
+    </style>
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1 style="margin-left:30px;margin-top:15px">Dosyalar</h1>
 
 <div>
-    <h4>Pdf</h4>
+    <h4 style="margin-left:30px;margin-top:15px">Pdf</h4>
     <hr />
-    <dl class="row">
+    <dl @*class="row"*@  class="myDiv">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
         </dt>

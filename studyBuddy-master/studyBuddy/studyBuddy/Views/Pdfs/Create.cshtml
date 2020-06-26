@@ -1,15 +1,29 @@
 ﻿@model studyBuddy.Models.Pdf
+    <style>
+        .myDiv {
+            border: 3px outset black;
+            background-color: lightcoral;
+            text-decoration-style: double;
+            text-align: left;
+            border-radius: 2px 2px;
+           
+            margin-left: 30px;
+          
+            width: auto;
+            height: auto;
+        }
 
+    </style>
 @{
     ViewData["Title"] = "Create";
 }
 
-<h1>Arsiv Ekle</h1>
+<h1 style="margin-left:30px;margin-top:15px">Arsiv Ekle</h1>
 
-<h4>Dosya</h4>
+<h4 style="margin-left:30px;margin-top:15px">Dosya</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
+<div @*class="row"*@ class="myDiv">
+    <div class="col-md-12">
         <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -36,14 +50,14 @@
                 <select asp-for="TermId" class="form-control" asp-items="ViewBag.TermId"></select>
             </div>
             <div class="form-group">
-                <input type="submit" value="Ekle" class="btn btn-primary" />
+                <input type="submit" value="Ekle" class="btn btn-primary" style="border-radius:0px 0px; background-color:darkblue" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    @*<a asp-action="Index">Back to List</a>*@
 </div>
 
 @section Scripts {
